@@ -234,7 +234,6 @@ body {
     }
 
     .info__text {
-        width: 360px;
         padding-top: 0;
         margin-top: 0;
         letter-spacing: 0,2px;
@@ -243,11 +242,12 @@ body {
     }
 
     .info__img-position {
-        float: right;
-        top: 0;
-        right: 0;
-        width: 400px;
-        border-radius: 6px;       
+            position: relative;
+            top: 0;
+            right: 0;
+            width: 360px;
+            border-radius: 6px;
+            height: 208px;    
     }
 
     .info__next-position {
