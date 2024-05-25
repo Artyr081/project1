@@ -23,9 +23,26 @@ body {
 }
 
 .header__button {
+    display: flex;
+    align-self: center;
     margin: 0 auto;
     border: none;
     background-color: #ffffff;
+}
+
+.header__href {
+    align-self: center;
+    margin: 0 auto;
+}
+
+.header__href:hover {
+    background-color: rgb(144, 144, 236);
+    border-radius: 6px;
+}
+
+.header__button:hover {
+    background-color: rgb(144, 144, 236);
+    border-radius: 6px;
 }
 
 .header__decor {
@@ -73,6 +90,11 @@ body {
     padding: 8px 16px;
 }
 
+.nav__link:hover {
+    background-color: rgb(144, 144, 236);
+    border-radius: 6px;
+}
+
 .nav__link_active {
     border: 2px solid #B8FFEC;
     background-color: #ffffff;
@@ -92,6 +114,11 @@ body {
 .info__button{
     border: none;
     background-color: #F8F8F8;
+}
+
+.info__next:hover {
+    background-color: rgb(144, 144, 236);
+    border-radius: 6px;
 }
 
 .info__next {
@@ -115,6 +142,10 @@ body {
 
 .info__text-mobile {
     display: none;
+}
+
+.info__img {
+    width: 100%
 }
 
 .main__container_menu {
